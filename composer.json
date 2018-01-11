@@ -1,0 +1,14 @@
+{
+    "name": "redis/redis",
+    "description": "study_reids",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
