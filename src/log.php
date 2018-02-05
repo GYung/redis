@@ -10,7 +10,7 @@ function index(){
 
     $redis=new redis();
     $redis->connect('127.0.0.1');
-
+    
     log_recent($redis,'log','ok');
     $destination='recent:log:info';
     var_dump($redis->lRange($destination,0,-1)) ;
